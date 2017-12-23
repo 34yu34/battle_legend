@@ -9,7 +9,7 @@ SOURCEPATH = ../lib/source
 INCLUDEPATH = ../lib/include
 #flags
 GLFLAGS = -lGL -lGLEW -lglut -lGLU
-CFLAGS = -Wall -ggdb -I $(INCLUDEPATH)
+CFLAGS = -Wall -ggdb -lm -I $(INCLUDEPATH)
 LFLAGS = -L$(LIBPATH) -l$(LIBNAME)
 ARFLAGS = cr
 #COMPILER
