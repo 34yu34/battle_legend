@@ -2,6 +2,7 @@
 #define WINDOWS_H
 
 #include "GL/glut.h"
+#include "GL/glu.h"
 #include "GL/gl.h"
 
 namespace Windows
